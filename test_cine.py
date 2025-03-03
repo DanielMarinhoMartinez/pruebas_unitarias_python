@@ -21,4 +21,4 @@ def test_venta_entradas(nombre, asientos_disponibles, precio, cantidad, expected
     assert resultado == expected_resultado
 
     # Verificar que los asientos disponibles son correctos
-    assert pelicula.asientos_disponibles == expected_asientos_disponibles
+    assert pelicula.asientos_disponibles == expected_asientos_disponibles 
